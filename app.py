@@ -45,7 +45,7 @@ def load_model():
 model, tokenizer = load_model()
 
 # User input
-st.markdown("This model is trained for 1 epoch only due to limited resource constrain so this may give some incorrect results.. Try to use long text for better performance")
+st.markdown("This model is fine tuned for 1 epoch only due to limited resource constrain so this may give some incorrect results.. Try to use long text for better performance")
 input_text = st.text_area("Enter text for sentiment prediction:", height=150)
 
 if st.button("Predict Sentiment"):
