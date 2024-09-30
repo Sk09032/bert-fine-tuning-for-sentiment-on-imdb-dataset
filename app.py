@@ -34,7 +34,7 @@ st.markdown("""
 # Title
 st.title("📊 Sentiment Analysis")
 st.markdown("Analyze the sentiment of your text using fine-tuned BERT on imdb dataset")
-st.
+st.markdown("[my huggingface repo](https://huggingface.co/kgpian/bert-sentiment-imdb)")
 
 # Load model and tokenizer
 @st.cache_resource
